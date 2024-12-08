@@ -6,4 +6,5 @@
     "routes": [
         { "src": "/(.*)", "dest": "rickroll_website/wsgi.py" }
     ]
+    "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }
